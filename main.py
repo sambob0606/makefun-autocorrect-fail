@@ -1,10 +1,10 @@
 """Funniest Autocorrect Fail — one-line entry.
 
 Writes a single-line autocorrect fail to /output/entry.txt. The line is a
-work email to a boss where one word slipped: "earnings" became "erection".
-It reads as a real slip, not a written joke — a normal quarterly-report
-email, one wrong word, and suddenly the whole board meeting is awkward.
-The twist lands on first read and needs no explanation.
+good-luck text where one word slipped: "exam" became "exorcism". It reads
+as a real slip, not a written joke — a normal encouraging message, one
+wrong word, and suddenly the exam sounds like a demonic ritual. The twist
+lands on first read and needs no explanation.
 """
 
 import os
@@ -12,8 +12,8 @@ import sys
 
 # The entry: one line, well under the 200-character gate.
 ENTRY = (
-    "Hi Mr. Thompson, the quarterly erection report is attached for "
-    "tomorrow's board meeting. Please review it before 9am, thanks!"
+    "Good luck on your exorcism tomorrow — you've studied so hard for "
+    "it, you'll do great!"
 )
 
 OUTPUT_PATH = "/output/entry.txt"
